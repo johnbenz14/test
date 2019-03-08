@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>HTML Forms</title>
+</head>
+<body>
+	<form action="scripts/action_page.html" method="GET">
+
+		<fieldset>
+			<legend>Input Text and Password</legend>
+
+			Input Text:
+		<input type="text" size="50" maxlength="5" name="input" value="" placeholder="Username">
+
+		Input Password
+		<input type="password" name="password" required, placeholder="Password">
+
+		</fieldset>
+
+		
+
+		<br>
+		Sex:
+		<input type="radio" id=""> Male
+		<input type="radio"> Female
+		<input type="radio"> Shemale
+
+		<br>
+
+		Checkbox:
+		<input type="checkbox" id=""> Honda
+		<input type="checkbox" id=""> Toyota
+		<input type="checkbox" id=""> Hyundai
+
+		<br>
+		<input type="button" value="Click Me!" onclick="alert('Hello!');">
+		
+		<br>
+
+		<input type="date" id="" value="2019-01-01"  min="2019-01-01" max="2019-12-31" >
+
+		<br>
+		
+		<input type="email" id="input">
+		
+		<br>
+		<input type="file" id="">
+
+		<br>
+		<input type="number" id="" min="1" max="10">
+
+		<br>
+
+		<select size="3" multiple>
+			<option value="honda">Honda</option>
+			<option value="mitsubishi">Mitsubishi</option>
+			<option value="hyundai" selected>Hyundai</option>
+			<option value="nissan">Nissan</option>
+		</select>
+
+		<br>
+
+		<textarea rows="10" cols="30">
+			The cat was playing in the garden.
+			</textarea>
+			
+
+
+
+
+
+
+
+		<br>
+
+		<!-- <input type="submit" value="Submit Text"> -->
+		<button type=”submit”>Click Me!</button>
+
+		<!-- <input type="reset" value="Reset Form"> -->
+<button type="reset">Reset Form</button>
+
+	</form>
+</body>
+</html>
